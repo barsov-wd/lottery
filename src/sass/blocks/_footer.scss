@@ -1,0 +1,60 @@
+.footer {
+    padding: 36px 0;
+    background-color: #F0F4FB;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__content {
+        text-align: center;
+    }
+    &__content-info {
+        width: 718px;
+    }
+    &__content-info {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #103A6F;
+        margin-bottom: 9px;
+    }
+    &__content-policy {
+        font-weight: 800;
+        text-decoration: underline;
+        color: #103A6F;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    &__contacts-mobile {
+        display: none;
+    }
+    &__contacts-social {
+        margin-bottom: 20px;
+    }
+    &__contacts-social-link {
+        display: inline-block;
+        margin-right: 15px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__contacts-phone-link {
+        position: relative;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #103A6F;
+        padding-left: 37px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 29px;
+            height: 29px;
+            background: url('../img/footer/icon-phone.svg') center no-repeat;
+        }
+    }
+}

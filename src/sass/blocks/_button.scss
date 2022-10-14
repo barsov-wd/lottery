@@ -1,0 +1,14 @@
+.button {
+    background: #D00000;
+    filter: drop-shadow(0px 2px 4px #C80000);
+    color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
