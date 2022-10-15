@@ -19,6 +19,9 @@
         right: 0;
         bottom: -13px;
     }
+    &__image-middle {
+        display: none;
+    }
     &__container {
         max-width: 1668px;
         margin: 0 auto;
@@ -56,6 +59,9 @@
         line-height: 120%;
         margin-bottom: 25px;
     }
+    &__subtitle-mobile {
+        display: none;
+    }
     &__subtitle-last {
         margin-left: 26px;
         margin-bottom: 50px;
@@ -83,6 +89,9 @@
         color: #FFFFFF;
         text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
         margin-bottom: 50px;
+    }
+    &__descr-mobile {
+        display: none;
     }
     &__inner {
         width: 928px;

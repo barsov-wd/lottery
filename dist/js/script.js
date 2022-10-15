@@ -1,21 +1,26 @@
-new Swiper('.swiper', {
-    navigation: {
-        nextEl: '.slider__arrows--next',
-        prevEl: '.slider__arrows--prev'
-    },
-
-    slidesPerView: 3,
-
-    breakpoints: {
-        320: {
-            slidesPerView: 1,
-            spaceBetween: 10,
+document.addEventListener('DOMContentLoaded', () => {
+    new Swiper('.swiper', {
+        navigation: {
+            nextEl: '.slider__arrows--next',
+            prevEl: '.slider__arrows--prev'
         },
-        768: {
-            slidesPerView: 2
-        },
-        992: {
-            slidesPerView: 4
+    
+        slidesPerView: 3,
+    
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 2
+            },
+            992: {
+                slidesPerView: 3
+            },
+            1400: {
+                slidesPerView: 4
+            }
         }
-    }
+    });
 });
