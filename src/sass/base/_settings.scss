@@ -58,3 +58,17 @@ h6 {
     visibility: hidden;
     transition: all 0.5s;
 }
+
+@keyframes toRight {
+    0% {
+        left: -100%;
+    }
+
+    85% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
